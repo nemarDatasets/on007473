@@ -1,8 +1,0 @@
-{
-  "TaskName": "MOT001",
-  "SamplingFrequency": 10.41666666666667,
-  "NIRSChannelCount": 7030,
-  "NIRSSourceOptodeCount": 128,
-  "NIRSDetectorOptodeCount": 125,
-  "RecordingDuration": 1326.3
-}
