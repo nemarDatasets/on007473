@@ -1,0 +1,8 @@
+{
+  "TaskName": "MOV006",
+  "SamplingFrequency": 10.41666666666667,
+  "NIRSChannelCount": 6928,
+  "NIRSSourceOptodeCount": 128,
+  "NIRSDetectorOptodeCount": 125,
+  "RecordingDuration": 725.4
+}
