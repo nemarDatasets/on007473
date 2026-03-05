@@ -1,0 +1,25 @@
+{
+  "Name": "High-Density Diffuse Optical Tomography System Movie Viewing Dataset",
+  "BIDSVersion": "",
+  "License": "PDDL",
+  "Authors": [
+    "Morgan Fogarty",
+    "Kalyan Tripathy",
+    "Alexandra M Svoboda",
+    "Mariel L Schroeder",
+    "Sean M Rafferty",
+    "Edward J Richter",
+    "Christopher Tracy",
+    "Patricia K Mansfield",
+    "Madison Booth",
+    "Andrew K Fishell",
+    "Arefeh Sherafati",
+    "Zachary E Markow",
+    "Muriah D Wheelock",
+    "Ana Maria Arbelaez",
+    "Bradley L Schlaggar",
+    "Christopher D Smyser",
+    "Adam T Eggebrecht",
+    "Joseph P Culver"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "NIRSCoordinateSystem": "Other",
+  "NIRSCoordinateUnits": "mm",
+  "AnatomicalLandmarkCoordinates": {
+    "Nz": [6.109,78.52,2.476],
+    "Iz": [0.0859,-103.3,-22.42],
+    "LPA": [-68.81,-22.41,-18.43],
+    "RPA": [70.45,-21.93,-21.53]
+  }
+}
