@@ -1,8 +1,0 @@
-{
-  "TaskName": "HWM001",
-  "SamplingFrequency": 10.41666666666667,
-  "NIRSChannelCount": 6750,
-  "NIRSSourceOptodeCount": 128,
-  "NIRSDetectorOptodeCount": 125,
-  "RecordingDuration": 1027.2
-}
