@@ -1,0 +1,44 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007473",
+  "source": "openneuro",
+  "source_id": "ds007473",
+  "title": "High-Density Diffuse Optical Tomography Audiovisual Movie Viewing Dataset",
+  "authors": {
+    "Morgan Fogarty": {},
+    "Kalyan Tripathy": {},
+    "Alexandra M Svoboda": {},
+    "Mariel L Schroeder": {},
+    "Sean M Rafferty": {},
+    "Edward J Richter": {},
+    "Christopher Tracy": {},
+    "Patricia K Mansfield": {},
+    "Madison Booth": {},
+    "Andrew K Fishell": {},
+    "Arefeh Sherafati": {},
+    "Zachary E Markow": {},
+    "Muriah D Wheelock": {},
+    "Ana Maria Arbelaez": {},
+    "Bradley L Schlaggar": {},
+    "Christopher D Smyser": {},
+    "Adam T Eggebrecht": {},
+    "Joseph P Culver": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007473.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "",
+  "recording_modality": [
+    "nirs"
+  ],
+  "datatypes": [
+    "nirs"
+  ]
+}
