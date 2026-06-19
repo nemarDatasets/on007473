@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007473-blue)](https://doi.org/10.82901/nemar.on007473)
+
 This dataset consists of 5 participants completing functional localizer and movie viewing tasks. These data are stored in SNIRF format with optode and landmark locations associated with subject specific head models. 
 
 
