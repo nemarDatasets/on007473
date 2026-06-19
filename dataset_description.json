@@ -1,26 +1,32 @@
 {
-    "Name": "High-Density Diffuse Optical Tomography Audiovisual Movie Viewing Dataset",
-    "BIDSVersion": "",
-    "License": "CC0",
-    "Authors": [
-        "Morgan Fogarty",
-        "Kalyan Tripathy",
-        "Alexandra M Svoboda",
-        "Mariel L Schroeder",
-        "Sean M Rafferty",
-        "Edward J Richter",
-        "Christopher Tracy",
-        "Patricia K Mansfield",
-        "Madison Booth",
-        "Andrew K Fishell",
-        "Arefeh Sherafati",
-        "Zachary E Markow",
-        "Muriah D Wheelock",
-        "Ana Maria Arbelaez",
-        "Bradley L Schlaggar",
-        "Christopher D Smyser",
-        "Adam T Eggebrecht",
-        "Joseph P Culver"
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds007473.v1.0.0"
+  "Name": "High-Density Diffuse Optical Tomography Audiovisual Movie Viewing Dataset",
+  "BIDSVersion": "",
+  "License": "CC0",
+  "Authors": [
+    "Morgan Fogarty",
+    "Kalyan Tripathy",
+    "Alexandra M Svoboda",
+    "Mariel L Schroeder",
+    "Sean M Rafferty",
+    "Edward J Richter",
+    "Christopher Tracy",
+    "Patricia K Mansfield",
+    "Madison Booth",
+    "Andrew K Fishell",
+    "Arefeh Sherafati",
+    "Zachary E Markow",
+    "Muriah D Wheelock",
+    "Ana Maria Arbelaez",
+    "Bradley L Schlaggar",
+    "Christopher D Smyser",
+    "Adam T Eggebrecht",
+    "Joseph P Culver"
+  ],
+  "DatasetDOI": "10.82901/nemar.on007473",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007473.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
