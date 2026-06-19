@@ -1,11 +1,21 @@
 {
   "version": "2.0",
-  "dataset_id": "on007473",
-  "source": "openneuro",
-  "source_id": "ds007473",
+  "pipeline_stage": "validated",
   "title": "High-Density Diffuse Optical Tomography Audiovisual Movie Viewing Dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Morgan Fogarty": {},
+    "Morgan Fogarty": {
+      "orcid": "0000-0003-1334-1923",
+      "affiliations": [
+        {
+          "name": "Mallinckrodt Institute of Radiology Washington University School of Medicine  St. Louis Missouri USA"
+        },
+        {
+          "name": "Imaging Science Program Washington University in St. Louis  St. Louis Missouri USA"
+        }
+      ]
+    },
     "Kalyan Tripathy": {},
     "Alexandra M Svoboda": {},
     "Mariel L Schroeder": {},
@@ -24,21 +34,68 @@
     "Adam T Eggebrecht": {},
     "Joseph P Culver": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007473.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007473",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007473",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1002/hbm.26684",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1117/1.NPh.12.1.015002",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "",
-  "recording_modality": [
+  "modalities": [
     "nirs"
   ],
-  "datatypes": [
-    "nirs"
-  ]
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".mat",
+    ".md",
+    ".snirf",
+    ".tsv"
+  ],
+  "description": "High-density diffuse optical tomography (HD-DOT) dataset acquired from 5 participants during functional localizer and naturalistic movie viewing tasks. The dataset includes SNIRF-formatted optical neuroimaging data with subject-specific head models, optode positions, and anatomical landmarks. This resource supports investigation of brain function during naturalistic audiovisual stimulation using non-invasive optical imaging.",
+  "methods_description": "Functional neuroimaging data were collected using high-density diffuse optical tomography during functional localizer tasks and movie viewing. Data are provided in SNIRF format with optode and landmark locations registered to subject-specific head models.",
+  "keywords": [
+    {
+      "term": "diffuse optical tomography"
+    },
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "movie viewing"
+    },
+    {
+      "term": "naturalistic stimuli"
+    },
+    {
+      "term": "brain mapping"
+    }
+  ],
+  "source_hash": "6df478d35c1da062116ae59102cb8ab1e03422fc46b405781ecbd29b6d0c12e7"
 }
