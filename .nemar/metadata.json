@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "High-Density Diffuse Optical Tomography Audiovisual Movie Viewing Dataset",
-  "description": "This dataset comprises high-density diffuse optical tomography (HD-DOT) neuroimaging data from 5 participants performing functional localizer and naturalistic movie viewing tasks. Data are provided in SNIRF format with optode and landmark locations registered to subject-specific head models, enabling investigation of brain function during audiovisual stimulation and naturalistic viewing conditions.",
-  "methods_description": "High-density diffuse optical tomography (HD-DOT) was used to acquire functional neuroimaging data during functional localizer and movie viewing tasks. Optode and landmark locations are provided in association with subject-specific head models.",
+  "description": "This dataset comprises high-density diffuse optical tomography (HD-DOT) neuroimaging data from 5 participants performing functional localizer and naturalistic movie viewing tasks. Data are provided in SNIRF format with optode positions and anatomical landmarks registered to subject-specific head models, enabling investigation of brain function during audiovisual stimulation using optical neuroimaging methods.",
+  "methods_description": "Participants completed functional localizer and movie viewing tasks while undergoing high-density diffuse optical tomography acquisition. Optode locations and anatomical landmarks were registered to individual head models for each subject.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -41,22 +41,19 @@
       "term": "diffuse optical tomography"
     },
     {
-      "term": "fNIRS"
-    },
-    {
       "term": "neuroimaging"
-    },
-    {
-      "term": "movie viewing"
     },
     {
       "term": "audiovisual processing"
     },
     {
+      "term": "movie viewing"
+    },
+    {
       "term": "functional localization"
     },
     {
-      "term": "naturalistic viewing"
+      "term": "SNIRF format"
     }
   ],
   "related_identifiers": [
