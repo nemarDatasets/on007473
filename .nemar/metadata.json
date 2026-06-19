@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "High-Density Diffuse Optical Tomography Audiovisual Movie Viewing Dataset",
+  "description": "This dataset comprises high-density diffuse optical tomography (HD-DOT) neuroimaging data from 5 participants performing functional localizer and naturalistic movie viewing tasks. Data are provided in SNIRF format with optode and landmark locations registered to subject-specific head models, enabling investigation of brain function during audiovisual stimulation and naturalistic viewing conditions.",
+  "methods_description": "High-density diffuse optical tomography (HD-DOT) was used to acquire functional neuroimaging data during functional localizer and movie viewing tasks. Optode and landmark locations are provided in association with subject-specific head models.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -34,12 +36,30 @@
     "Adam T Eggebrecht": {},
     "Joseph P Culver": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007473.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "diffuse optical tomography"
     },
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "movie viewing"
+    },
+    {
+      "term": "audiovisual processing"
+    },
+    {
+      "term": "functional localization"
+    },
+    {
+      "term": "naturalistic viewing"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007473",
       "identifier_type": "URL",
@@ -59,43 +79,27 @@
       "identifier": "10.1117/1.NPh.12.1.015002",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007473.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "fNIRS Dataset",
   "modalities": [
     "nirs"
   ],
-  "resource_type_specific": "fNIRS Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "38.9 GB (199 files)"
   ],
   "formats": [
     ".json",
     ".mat",
     ".md",
     ".snirf",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "High-density diffuse optical tomography (HD-DOT) dataset acquired from 5 participants during functional localizer and naturalistic movie viewing tasks. The dataset includes SNIRF-formatted optical neuroimaging data with subject-specific head models, optode positions, and anatomical landmarks. This resource supports investigation of brain function during naturalistic audiovisual stimulation using non-invasive optical imaging.",
-  "methods_description": "Functional neuroimaging data were collected using high-density diffuse optical tomography during functional localizer tasks and movie viewing. Data are provided in SNIRF format with optode and landmark locations registered to subject-specific head models.",
-  "keywords": [
-    {
-      "term": "diffuse optical tomography"
-    },
-    {
-      "term": "fNIRS"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "movie viewing"
-    },
-    {
-      "term": "naturalistic stimuli"
-    },
-    {
-      "term": "brain mapping"
-    }
-  ],
-  "source_hash": "6df478d35c1da062116ae59102cb8ab1e03422fc46b405781ecbd29b6d0c12e7"
+  "source_hash": "655121f38287ce82b92607274d4844b2bac2a17319f6735a548e45e8c89c5e83"
 }
