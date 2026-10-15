@@ -1,0 +1,14 @@
+{
+  "sub": {
+    "Description": "Participant label (sub-<label>)."
+  },
+  "ses": {
+    "Description": "Session label."
+  },
+  "task": {
+    "Description": "BIDS task label of the run (task-MOVnnn is a run index within a session, not a movie id)."
+  },
+  "stim_id": {
+    "Description": "Clip shown in this run (stimuli/stimuli.tsv), from the authors' table MovieParticipants_Adults.mat."
+  }
+}

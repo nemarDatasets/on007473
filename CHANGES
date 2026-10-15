@@ -1,2 +1,10 @@
+1.0.1 2026-10-14
+  - Added stimuli/stimuli.tsv + stimuli.json (20 movie clips: source, duration, start in the source) and stimuli/run_to_clip.tsv + json (80 runs, from the authors' table); no media added.
+  - README: section 'Stimuli' (clip identities, how they were located, events in samples, SNIRF landmarkLabels).
+  - dataset_description.json: GeneratedBy entry for this enrichment.
+  - README: the 16 movie runs of sub-A04 ses-7/ses-8 (outside the 2024 paper's 40 A04 runs) match the 8 audio-only + 8 silent-video control runs of the 2025 paper (Suppl. Fig. 4); which session is which and the clips are not stated.
+  - stimuli.tsv: presented_duration_s (which held ranges such as 341.2-341.3) split into the numeric columns presented_duration_min_s and presented_duration_max_s.
+  - dataset_description.json: Version 1.0.0 -> 1.0.1.
+
 1.0.0 2026-03-05
   - Initial version

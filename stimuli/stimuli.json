@@ -1,0 +1,40 @@
+{
+  "stim_id": {
+    "Description": "Clip name used by the authors (MovieParticipants_Adults.mat, github.com/mefogarty/feature-mapping-tutorial)."
+  },
+  "source_title": {
+    "Description": "Title of the source work or upload."
+  },
+  "source_id": {
+    "Description": "Identifier of the source (YouTube id, archive or deposit identifier, clip name)."
+  },
+  "source_url": {
+    "Description": "Where the source can be obtained (official page, upload or deposit). Not a copy made by us."
+  },
+  "rights": {
+    "Description": "Rights note. 'third-party; not included': the video belongs to its rights holder and is not part of this dataset."
+  },
+  "presented_duration_min_s": {
+    "Description": "Shortest duration of the movie period over the runs that show this clip (from the SNIRF stim marks; 0.1-s rounding).",
+    "Units": "s"
+  },
+  "presented_duration_max_s": {
+    "Description": "Longest duration of the movie period over the runs that show this clip (from the SNIRF stim marks; 0.1-s rounding); equals presented_duration_min_s when every run gives the same value.",
+    "Units": "s"
+  },
+  "source_in_s": {
+    "Description": "Start of the presented segment inside the source (n/a: starts at the beginning).",
+    "Units": "s"
+  },
+  "verification": {
+    "Description": "How identity and timing were checked."
+  },
+  "confidence": {
+    "Description": "Confidence in identity and timing.",
+    "Levels": {
+      "verified": "identity and timing checked against data or files of this dataset",
+      "likely": "identity verified, timing from one anchor, or two independent anchors agree",
+      "unknown": "not checked or not resolvable from public material"
+    }
+  }
+}
