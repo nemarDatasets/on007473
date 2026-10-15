@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "High-Density Diffuse Optical Tomography Audiovisual Movie Viewing Dataset",
-  "description": "This dataset contains high-density diffuse optical tomography (HD-DOT) recordings from 5 participants performing functional localizer tasks and audiovisual movie viewing. Data are provided in SNIRF format together with optode and landmark locations linked to subject-specific head models. It supports research on mapping brain function during naturalistic viewing and on decoding multisensory stimuli.",
-  "methods_description": "Participants completed functional localizer and movie viewing tasks while HD-DOT data were recorded. Data are stored in SNIRF format with optode and landmark locations associated with subject-specific head models.",
+  "description": "This dataset contains high-density diffuse optical tomography (HD-DOT) recordings from five adult participants completing functional localizer and naturalistic audiovisual movie viewing tasks. Data are stored in SNIRF format together with optode and landmark locations linked to subject-specific head models. Metadata describing the movie clips used as stimuli (20 clips from Finding Nemo, Frozen, Moana, Curious George and Daniel Tiger's Neighborhood) are provided, although the commercial media files are not included. Note: participant A04 has 16 additional movie-labelled runs (ses-7 MOV002-MOV009 and ses-8 MOV001-MOV008) that are not part of the 40 A04 movie runs in the 2024 paper and are not listed in the run-to-clip table. They likely correspond to a control experiment described in the 2025 Neurophotonics paper (audio-only and silent-video clips), but the stimulus condition of each session has not been confirmed by the authors, so these runs should not be assumed to be audiovisual movie viewing. Known file issues: events.tsv onset and duration are given in samples (10.42 Hz) rather than seconds, and the SNIRF files fail to load with mne.io.read_raw_snirf because landmarkLabels is stored as a 2-D array.",
+  "methods_description": "Participants underwent HD-DOT imaging across multiple sessions while viewing movie clips (Finding Nemo, Frozen, Moana, Curious George, Daniel Tiger's Neighborhood) and performing functional localizer tasks. Data were recorded in SNIRF format with optode and landmark locations linked to subject-specific head models. Clip start times in the source works were identified by correlating 1-s luminance and auditory-envelope regressors with copies of the source. The task label MOVnnn denotes a run index within a session, not a specific movie. Additional A04 sessions (ses-7 and ses-8, 8 runs each) were collected as supplementary data and are described in the dataset description.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -72,13 +72,16 @@
       "term": "HD-DOT"
     },
     {
-      "term": "functional near-infrared spectroscopy"
+      "term": "fNIRS"
     },
     {
       "term": "naturalistic viewing"
     },
     {
       "term": "movie viewing"
+    },
+    {
+      "term": "audiovisual stimulation"
     },
     {
       "term": "SNIRF"
@@ -98,7 +101,7 @@
     {
       "identifier": "10.1117/1.NPh.12.1.015002",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.18112/openneuro.ds007473.v1.0.0",
@@ -126,5 +129,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "655121f38287ce82b92607274d4844b2bac2a17319f6735a548e45e8c89c5e83"
+  "source_hash": "e05dda5d3fa260c48fdcbd7e7fc7024a4f85b8a36c99a8bb65638e6cad14052a"
 }
