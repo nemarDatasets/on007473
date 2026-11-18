@@ -41,3 +41,8 @@ imaging session". Two sessions of 8 control runs each match ses-7 and ses-8 (8 r
 audio-only one and which the silent-video one, which four clips were used and in what order are not stated, and the SNIRF
 sidecars of these runs give only `TaskName` MOVnnn. Until the authors confirm, these 16 runs should not be taken as
 audiovisual movie viewing; `stimuli/run_to_clip.tsv` does not list them.
+
+## Contributed notes (version 1.0.2)
+
+- The SNIRF files store /nirs/probe/landmarkLabels as a 2-D (1, N) string array; SNIRF v1.1 specifies a 1-D string array, and MNE-Python 1.13 fails on the 2-D form, so the files do not open in MNE. The SNIRF files are unchanged in this version.
+- The paragraph "Known file issues (unchanged here)" above describes version 1.0.1. From version 1.0.2, events.tsv onset and duration are in seconds; the landmarkLabels issue remains.

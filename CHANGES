@@ -1,3 +1,11 @@
+1.0.2 2026-11-18
+  - 189 sub-*/ses-*/nirs/*_events.tsv: onset and duration converted from samples to seconds (sample / sampling frequency); trial_type unchanged
+  - 189 *_channels.tsv: names S<source>_D<detector> <wavelength> from the SNIRF measurement list; wavelength_nominal written as a decimal (685.0); column status added with n/a (no channel quality assessment was made); the published numeric source and detector values and the sampling_frequency column are kept (sampling_frequency moved to the last column)
+  - 189 *_nirs.json: ManufacturersModelName "HD-DOT (in-house, Washington University)" added (doi:10.1002/hbm.26684, section 2.1); RecordingType "continuous" (regular SNIRF time vector)
+  - dataset_description.json: DatasetType "raw", ReferencesAndLinks and HowToAcknowledge (doi:10.1002/hbm.26684 and doi:10.1117/1.NPh.12.1.015002, named in the published README) and EthicsApprovals (doi:10.1002/hbm.26684, section 2.3) added; BIDSVersion (empty) -> 1.10.0
+  - sourcedata/: the published versions of the files whose values change in this version (189 channels.tsv, 189 events.tsv), byte-identical at the same relative path (plain git files)
+  - README.md: new section "Contributed notes (version 1.0.2)"
+  - dataset_description.json: Version 1.0.1 -> 1.0.2
 1.0.1 2026-10-14
   - Added stimuli/stimuli.tsv + stimuli.json (20 movie clips: source, duration, start in the source) and stimuli/run_to_clip.tsv + json (80 runs, from the authors' table); no media added.
   - README: section 'Stimuli' (clip identities, how they were located, events in samples, SNIRF landmarkLabels).

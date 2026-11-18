@@ -1,6 +1,6 @@
 {
   "Name": "High-Density Diffuse Optical Tomography Audiovisual Movie Viewing Dataset",
-  "BIDSVersion": "",
+  "BIDSVersion": "1.10.0",
   "License": "CC0",
   "Authors": [
     "Morgan Fogarty",
@@ -28,12 +28,21 @@
       "DOI": "doi:10.18112/openneuro.ds007473.v1.0.0"
     }
   ],
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "GeneratedBy": [
     {
       "Name": "NeuralBench video-stimulus metadata enrichment",
       "Version": "2026-10-08",
       "Description": "Metadata only, no media files: stimulus table (stimuli/stimuli.tsv), README section 'Stimuli' and the changes listed in CHANGES under 1.0.1. Facts and sources are in the README section. Prepared by Bruno Aristimunha (NeuralBench video work); the videos stay with their rights holders."
     }
+  ],
+  "DatasetType": "raw",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1002/hbm.26684",
+    "https://doi.org/10.1117/1.NPh.12.1.015002"
+  ],
+  "HowToAcknowledge": "Please cite the associated papers (doi:10.1002/hbm.26684; doi:10.1117/1.NPh.12.1.015002).",
+  "EthicsApprovals": [
+    "in accordance with the IRB protocol approved by the Human Research Protection Office at Washington University School of Medicine"
   ]
 }

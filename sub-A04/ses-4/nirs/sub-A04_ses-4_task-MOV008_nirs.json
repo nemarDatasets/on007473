@@ -4,5 +4,7 @@
   "NIRSChannelCount": 6782,
   "NIRSSourceOptodeCount": 128,
   "NIRSDetectorOptodeCount": 125,
-  "RecordingDuration": 1148.2
+  "RecordingDuration": 1148.2,
+  "RecordingType": "continuous",
+  "ManufacturersModelName": "HD-DOT (in-house, Washington University)"
 }
